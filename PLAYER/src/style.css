@@ -1,0 +1,492 @@
+
+.main-container {
+  text-align: center;
+  font-size:15px;
+  padding: 60px 20px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.genre-card {
+  width: 26rem;
+  height: 30rem;
+  background: linear-gradient(to bottom right, #4B4A9E, #222242); /* gradiente */
+  color: white;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.genre-card:hover {
+  transform: scale(1.05);
+}
+
+.card-title,
+.card-text {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+
+
+
+
+
+ .content {
+      display: flex;
+      flex-grow: 1;
+      padding: 40px;
+      margin-bottom: 200px;
+      background: linear-gradient(#bebdff, #EAF1FB);
+      justify-content: center;
+      align-items: center; 
+      text-decoration: none;
+      
+  }
+
+
+    .playerbox {
+      display: block;
+      background-image: linear-gradient(#888980, #303749);
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+      .playerboxdub {
+      display: block;
+      background-image: linear-gradient(#938C7A,#181818 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+        .playerboxdnb {
+      display: block;
+      background-image: linear-gradient(#354467,#172129 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+          .playerboxtechno {
+      display: block;
+      background-image: linear-gradient(#3c53e9,#111F20 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+            .playerboxhouse {
+      display: block;
+      background-image: linear-gradient(#7dbd10, #27a1b9 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+              .playerboxclasico {
+      display: block;
+      background-image: linear-gradient(#414141, #181818 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                .playerboxpunk {
+      display: block;
+      background-image: linear-gradient(#C6C6C6, #888888 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxtrad {
+      display: block;
+      background-image: linear-gradient(#CFC59A, #633923 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxthrash {
+      display: block;
+      background-image: linear-gradient(#745F74, #0D0410 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxdeath {
+      display: block;
+      background-image: linear-gradient(#1f1f1f, #8C2746 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxpower {
+      display: block;
+      background-image: linear-gradient(#C16B23, #181818 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxsalsa {
+      display: block;
+      background-image: linear-gradient(#565FA3, #1A2E5C );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+                  .playerboxreggaeton {
+      display: block;
+      background-image: linear-gradient(#6E0F0F, #181818 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+   .playerboxcumbia {
+      display: block;
+      background-image: linear-gradient(#90CDBB, #443c27 );
+      border-radius: 25px;
+      padding: 25px 5px 5px 10px; 
+      height: 400px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 200px;
+      zoom: 1.5;
+  }
+
+.player-container {
+  padding: 0px 0px 0px 0px;
+  border-radius: 10px;
+  max-width: 450px;
+}
+
+.pp{
+  display: flex;
+  justify-content: start;
+  justify-items: start;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 25px;
+}
+
+.pp div{
+  padding: 0px 10px 0px 0px;
+}
+
+
+.buttonp {
+  display: flex;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.1s;
+  color: black;
+  border: 0;
+  
+}
+
+.title{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0px;
+  background-color: #4B4A9E;
+  color: #ffffff;
+}
+
+.acc{
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+  .list {
+      margin: 0;
+      font-family: "TikTok Sans", sans-serif;
+      display: flex;
+      background-color: #eaf1fb;
+   }
+   .sidebar {
+      width: 250px;
+      background: #4B4A9E;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+      text-decoration: none;
+  }
+  .sidebar h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-decoration: none;
+   }
+   .sidebar ul {
+      list-style: none;
+      padding: 0;
+      text-decoration: none;
+  }
+  .sidebar li {
+      padding: 5px 0;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .sidebar li:hover {
+      text-decoration: none;
+  }
+
+  .buttons{
+    display: block;
+    margin-left: auto;
+    margin-bottom: 25px;
+    padding-right: 25px;
+  }
+
+  .buttons div{
+    padding: 25px 0px 0px 0px;
+  }
+
+
+
+
+  .musinfo{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-right: 130px;
+    flex-direction: column;
+    color: white;
+    
+  }
+  .musinfo h1{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+  }
+
+  .musinfo h2{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-size:15px;
+  }
+
+  .music{
+    padding: 0px 25px 0px 25px;
+    margin: 0px;
+  }
+
+  .musimg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 420px;
+    margin-bottom: 20px;
+    filter: blur(10px);
+    zoom: 0.9;
+  }
+
+  .musimg2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 375px;
+    margin-bottom: 70px;
+  }
+
+  .musimg2 img{
+    border-radius: 25px;
+  }
+
+  
+
+  .musimg img{
+    border-radius: 15px;
+  }
+
+  .musgen h1{
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+  }
+
+  .bar {
+    margin-right: auto;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(115, 193, 245);
+  transition-duration: 0.2s;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.musimg1 img {
+  border-radius: 25px;
+  animation: scaleIn 0.5s ease-out forwards;
+}
+
+.musimg2 img {
+  border-radius: 25px;
+  animation: scaleIn 0.5s ease-out forwards;
+}
+
+* {
+  text-decoration: none;
+}

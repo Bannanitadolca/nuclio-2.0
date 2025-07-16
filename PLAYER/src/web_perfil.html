@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil - Nuclio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-color: #e9f0fa; font-family: 'TikTok Sans', sans-serif;">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #a5a4ca;" data-bs-theme="dark">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Nuclio</a> -->
+    <img src="./Group.png" alt="Logo" width="140" height="30"
+         class="position-absolute start-50 translate-middle-x">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="web_house.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Perfil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Información
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">About</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Demo Version</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <!-- Perfil Header -->
+  <div class="text-white py-4" style="background: linear-gradient(#5d5be7, #EAF1FB); position: relative;">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <img src="Fotoperfil.png" alt="Usuario" class="" width="200" height="200" style="object-fit: cover; margin-right: 20px;">
+        <div>
+          <h1 class="mb-1">Fede Albornoz</h1>
+          <p class="mb-1 fs-4">30 Años, Music enthusiast, Buenos Aires</p>
+        </div>
+      </div>
+      <div>
+        <img src="NUCHEART.png" alt="Favoritos" width="32" class="me-3" />
+        <img src="white-gear-icon-png-12.png" alt="Configuración" width="32" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Canciones -->
+  <div class="container mt-4">
+    <div class="row fw-bold text-center fs-4 border-bottom pb-2 mb-3" style="color: #4B3EA1; border-color: #4B3EA1 !important;">
+      <div class="col-4">CANCIÓN</div>
+      <div class="col-4">ARTISTA</div>
+      <div class="col-4">GÉNERO</div>
+    </div>
+
+    <!-- Lista de canciones -->
+    <div class="row text-white fs-4 text-center mb-2 animate__animated animate__fadeInUp" style="background-color: #2B3035;">
+      <div class="col-4 py-4">Video Games</div>
+      <div class="col-4 py-4">Lana Del Rey</div>
+      <div class="col-4 py-4">Country Pop</div>
+    </div>
+    <div class="row text-white fs-4 text-center mb-2 animate__animated animate__fadeInUp" style="background-color: #2B3035; animation-delay: 0.3s;">
+      <div class="col-4 py-4">Perfect</div>
+      <div class="col-4 py-4">Capoxxo-Oaf1-Dreamcache</div>
+      <div class="col-4 py-4">Hyperpop</div>
+    </div>
+    <div class="row text-white fs-4 text-center mb-2 animate__animated animate__fadeInUp" style="background-color: #2B3035; animation-delay: 0.6s;">
+      <div class="col-4 py-4">OPA</div>
+      <div class="col-4 py-4">Dillom</div>
+      <div class="col-4 py-4">Trap Alternativo</div>
+    </div>
+    <div class="row text-white fs-4 text-center mb-2 animate__animated animate__fadeInUp" style="background-color: #2B3035; animation-delay: 0.9s;">
+      <div class="col-4 py-4">Blackbird</div>
+      <div class="col-4 py-4">The Beatles</div>
+      <div class="col-4 py-4">Folk acústico | Folk Rock</div>
+    </div>
+    <div class="row text-white fs-4 text-center mb-2 animate__animated animate__fadeInUp" style="background-color: #2B3035; animation-delay: 1.2s;">
+      <div class="col-4 py-4">RATATA</div>
+      <div class="col-4 py-4">Skrillex</div>
+      <div class="col-4 py-4">Electrónica</div>
+    </div>
+  </div>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

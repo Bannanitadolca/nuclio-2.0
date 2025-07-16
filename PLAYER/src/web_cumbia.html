@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuclio</title>
+
+  
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #a5a4ca;" data-bs-theme="dark">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Nuclio</a> -->
+    <img src="./Group.png" alt="Logo" width="140" height="30"
+         class="position-absolute start-50 translate-middle-x">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="web_perfil.html">Perfil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Información
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">About</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Demo Version</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- 
+  <div class="title">
+    <img src="nuclioblue.png" width="180px" height="auto">
+    <div class="acc">
+      <a href="perfil.html"><img src="prof.png" width="48x" height="auto"></a>
+    </div>
+
+  </div>
+  CAMBIAR-->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- CAMBIAR-->
+  <div class="list">
+    <div class="sidebar">
+      <h2>Electrónica</h2> 
+      <ul>
+        <li><a href="./web_house.html">- House</a></li>
+        <li><a href="./web_techno.html">- Neotrance</a></li>
+        <li><a href="./web_dubstep.html">- Dubstep</a></li>
+        <li><a href="./web_dnb.html">- Drum and Bass</a></li>
+      </ul>
+      <h2>Rock</h2>
+      <ul>
+        <li><a href="./web_clasico.html">- Clásico</a></li>
+        <li><a href="./web_altrock.html">- Alternativo</a></li>
+        <li><a href="./web_punk.html">- Punk</a></li>
+      </ul>
+      <h2>Heavy Metal</h2>
+      <ul>
+        <li><a href="./web_tradicional.html">- Tradicional</a></li>
+        <li><a href="./web_thrash.html">- Thrash Metal</a></li>
+        <li><a href="./web_death.html">- Death Metal</a></li>
+        <li><a href="./web_power.html">- Power Metal</a></li>
+      </ul>      
+      <h2>Latino</h2>
+      <ul>
+        <li><a href="./web_salsa.html">- Salsa</a></li>
+        <li><a href="./web_reggaeton.html">- Reggaetón</a></li>
+        <li><a href="./web_cumbia.html">- Cumbia</a></li>
+      </ul>
+    </div>
+
+    
+
+    <div class="content">
+
+      <div class="musimg1">
+        <img src="./assets/img/cumbiajpg.jpg" width="325px">                                                            <!-- CAMBIAR IMAGEN NORMAL-->
+      </div>
+      <div class="musimg2">
+        <img src="./assets/img/cumbiajpg.jpg" width="325px">                                                            <!-- CAMBIAR IMAGEN BLUR-->
+      </div>
+      
+      <div id="player">
+        <div class="playerboxcumbia">                                                                                          <!-- CAMBIAR PLAYERBOX-->
+          
+          <div class="musgen">
+            <h1>Cumbia</h1>                                                                                               <!-- CAMBIAR GENERO--> 
+          </div>
+
+          <div class="buttons">
+            <div><img src="NUCHEART.png" width="32" height="auto"></div>
+            <div><a href="./web_reggaeton.html"><img src="NUCBACK.png" width="32" height="auto"></a></div>                           <!-- CAMBIAR ANTERIOR-->
+            <div><a href="./web_salsa.html"><img src="NUCFORW.png" width="32" height="auto"></a></div>                        <!-- CAMBIAR SIGUIENTE-->
+          </div>
+          <div class="player-container">
+            
+            <audio id="audio" src="" autoplay></audio>
+            
+            <div class="buttonp">
+              <div class="musinfo">
+                <h3>Los Angeles</h3>                                                                                              <!-- CAMBIAR ARTISTA-->
+                <h2>Como te voy a olvidar</h2>                                                                                          <!-- CAMBIAR CANCION-->
+              </div>
+
+              <div class="pp">
+                <div><button onclick="playthesong().play()"><img src="button1.png" width="32px" height="auto"></button></div>
+                <button onclick="document.getElementById('audio').pause()"><img src="button2.png" width="32px" height="auto"></button>
+              </div>
+              
+            </div>
+            <div class="bar">
+              <img src="NUCBAR-03.png" width="300px" height="auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function playthesong() {
+      loadTrack('cumbia_como.mp3')                                                                                       /* CAMBIAR CANCION MP3 */
+      const audio = document.querySelector("audio");
+      if (audio) {
+        audio.src = `assets/music/${file}`;
+        audio.play();
+      }
+    }
+
+    function loadTrack(file) {
+      const audio = document.querySelector("audio");
+      if (audio) {
+        audio.src = `assets/music/${file}`;
+        audio.play();
+      }
+    }
+  </script>
+
+</body>
+</html>

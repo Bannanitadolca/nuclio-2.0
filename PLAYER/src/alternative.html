@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <div class="title">
+    <img src="nuclioblue.png" width="180px" height="auto">
+    <div class="acc">
+      <a href="perfil.html"><img src="prof.png" width="48x" height="auto"></a>
+    </div>
+
+  </div>
+  
+  <link rel="stylesheet" href="style.scss" />
+</head>
+
+<body>
+  <div class="list">
+    <div class="sidebar">
+      <h2>Electrónica</h2>
+      <ul>
+        <li><a href="CANCIONAIR.html">House</a></li>
+        <li onclick="loadTrack('techno_ghost.mp3')">- Techno</li>
+        <li onclick="loadTrack('dubstep_skanka.mp3')">- Dubstep</li>
+        <li onclick="loadTrack('dnb_arcando.mp3')">- Drum and Bass</li>
+      </ul>
+      <h2>Rock</h2>
+      <ul>
+        <li onclick="loadTrack('clasico_fortunate.mp3')">- Clásico</li>
+        <li onclick="loadTrack('alternativo_everybody.mp3')">- Alternativo</li>
+        <li onclick="loadTrack('punk_dead.mp3')">- Punk</li>
+      </ul>
+      <h2>Heavy Metal</h2>
+      <ul>
+        <li onclick="loadTrack('tradicional_immigrant.mp3')">- Tradicional</li>
+        <li onclick="loadTrack('thrash_symphony.mp3')">- Thrash Metal</li>
+         <li onclick="loadTrack('death_chopped.mp3')">- Death Metal</li>
+        <li onclick="loadTrack('power_ttfaf.mp3')">- Power Metal</li>
+      </ul>      
+      <h2>Latino</h2>
+      <ul>
+        <li onclick="loadTrack('salsa_ven.mp3')">- Salsa</li>
+        <li onclick="loadTrack('reggaeton_rakata.mp3')">- Reggaetón</li>
+        <li onclick="loadTrack('cumbia_como.mp3')">- Cumbia</li>
+      </ul>
+    </div>
+
+    
+
+    <div class="content">
+
+      <div class="musimg1">
+        <img src="altjpg.jpg" width="325px"> #CAMBIAR
+      </div>
+      <div class="musimg2">
+        <img src="altjpg.jpg" width="325px"> #CAMBIAR
+      </div>
+      
+      <div id="player">
+        <div class="playerbox">
+          
+          <div class="musgen">
+            <h1>Alternative Rock</h1>
+          </div>
+
+          <div class="buttons">
+            <div><img src="NUCHEART.png" width="32" height="auto"></div>
+            <div><a href="CANCIONANTERIOR.html"><img src="NUCBACK.png" width="32" height="auto"></a></div> #CAMBIAR
+            <div><a href="CANCIONSIGUIENTE.html"><img src="NUCFORW.png" width="32" height="auto"></a></div> #CAMBIAR
+          </div>
+          <div class="player-container">
+            
+            <audio id="audio" src="" autoplay></audio>
+            
+            <div class="buttonp">
+              <div class="musinfo">
+                <h1>TITULO</h1> #CAMBIAR
+                <h2>COSO</h2> #CAMBIAR
+              </div>
+
+              <div class="pp">
+                <div><button onclick="playthesong().play()"><img src="button1.png" width="32px" height="auto"></button></div>
+                <button onclick="document.getElementById('audio').pause()"><img src="button2.png" width="32px" height="auto"></button>
+              </div>
+              
+            </div>
+            <div class="bar">
+              <img src="NUCBAR-03.png" width="300px" height="auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    function playthesong() {
+      loadTrack('alternativo_everybody.mp3')
+      const audio = document.querySelector("audio");
+      if (audio) {
+        audio.src = `assets/music/${file}`;
+        audio.play();
+      }
+    }
+
+    function loadTrack(file) {
+      const audio = document.querySelector("audio");
+      if (audio) {
+        audio.src = `assets/music/${file}`;
+        audio.play();
+      }
+    }
+  </script>
+</body>
+</html>
